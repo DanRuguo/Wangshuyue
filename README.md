@@ -35,6 +35,7 @@
 
 3. **获取Cookie信息**：
    - 使用学号 `202111070119` 和密码 `617424` 登录网站 [http://yktfwdt.sdust.edu.cn/](http://yktfwdt.sdust.edu.cn/)。
+   - 直接访问上述网站可能进不去，手动将httpshttps改成httphttp即可。
    - 登录后，进入浏览器开发者模式（通常按 `F12` 或 `Ctrl+Shift+I`）获取请求标头中的 `Cookie` 信息，并替换代码中的旧 `Cookie`。
    - 只有正确设置了 `Cookie` 信息后，脚本才能正常运行。
 
